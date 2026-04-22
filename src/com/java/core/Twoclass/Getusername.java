@@ -2,9 +2,11 @@ package com.java.core.Twoclass;
 
    public class Getusername{
 	   
-	public String getname(String fname , String lname) {
+	public String getname(String fname , String lname ,int yob) {
 		
-		String username = fname + lname;
+		int year = yob % 100;
+		
+		String username = fname + lname + year;
 		return username;
 	}
 	   
