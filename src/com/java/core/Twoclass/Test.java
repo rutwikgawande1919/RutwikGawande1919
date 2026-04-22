@@ -7,7 +7,9 @@ public class Test {
 	
 	public static void main(String[] args) {
 		Usernamegenerator generator = new Usernamegenerator();
+		
 	String username	= generator.getusername("john" , "wick" , 1999);
+	
 	System.out.println("username is :" + username);
 	}
 
