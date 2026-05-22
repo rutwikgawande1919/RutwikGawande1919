@@ -3,6 +3,9 @@ package com.java.casting;
 public class Implicitcasting {
 
 	public static void main(String[] args) {
+/* implicit casting means converting small data type into
+  large data type 
+ */
 		int a = 23;
 		double d = a;
 		System.out.println("value of D is :" +d);

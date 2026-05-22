@@ -1,12 +1,12 @@
 package com.java.core.twoclassvariable;
 
-import java.util.Scanner;
+
 
 public class Test1 {
 
 	public static void main(String[] args) {
 
-		Student sc = new Student();
+		Student1 sc = new Student1();
 
 		sc.id = 101;
 		sc.name = "Ram";

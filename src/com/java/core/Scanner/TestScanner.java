@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class TestScanner {
     public static void main(String[] args) {
-    	   //Take input from console to jsvs file
+    	   //Take input from console to java file
 		Scanner sc = new Scanner(System.in);
 		
 	// 1. int as a yob	

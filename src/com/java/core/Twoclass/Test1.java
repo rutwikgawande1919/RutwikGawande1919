@@ -17,7 +17,7 @@ public class Test1 {
     	   int yob = sc.nextInt();
     	   
 	    Getusername name = new Getusername();
-		String username =name.getname(fname , lname , yob);
+		String username =name.getname(fname, lname, yob);
 		System.out.println("username is :" +username);
 	}
 }

@@ -16,12 +16,12 @@ public class Test_3 {
 		String pass = sc.next();
 		sc.close();;
 		
-		if(username.equals(usern)) {
+		if(username.equalsIgnoreCase(usern)) {
 			
 		}else {
 			System.out.println(" invalid username");
 		}
-		if(password.equals(pass)) {
+		if(password.equalsIgnoreCase(pass)) {
 			
 		}else {
 			System.out.println(" invalid password");
