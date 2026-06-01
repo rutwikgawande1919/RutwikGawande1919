@@ -1,4 +1,4 @@
-package Exception_Handling;
+package Exception_Handling_try_catch;
 
 public class Exception_Basics1_Day1 {
 
